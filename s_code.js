@@ -31,7 +31,7 @@ function s_doPlugins(s) {
   s.server = s_host;
 
   // pageName
-  s.pageName = s.util.getQueryParam("pageName");
+  s.pageName = s.Util.getQueryParam("pageName");
 
   // Row URL
   s.prop100 = "D=g";
